@@ -1,5 +1,4 @@
-Hw
-# Robot Framework
+# Wedding-Blast
 - [Introduction](https://github.com/alvinrach/wedding-blast) 
 - [Installation](https://github.com/alvinrach/wedding-blast) 
 - [Usage](https://github.com/alvinrach/wedding-blast) 
