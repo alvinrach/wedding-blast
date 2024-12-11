@@ -9,7 +9,7 @@ Creating a "wedding blast" for WhatsApp using Python can be interpreted in sever
 I’ll guide you through two common ways to do this:
 #### Installation
 ##### Prerequisites
-Install [Newer Python](https://www.python.org/downloads/) and runs also on  [Visual Studio Code](https://code.visualstudio.com/) or [PyPy](https://www.pypy.org/) or any others code editor
+Install [Python 3.11](https://www.python.org/downloads/) and runs also on  [Visual Studio Code](https://code.visualstudio.com/) or [PyPy](https://www.pypy.org/) or any others code editor
 To check if you have Python installed, run the following command in your terminal:
 ``` 
 python --version
@@ -30,12 +30,12 @@ cd /path/to/your/project
 ```
 Create a virtual environment:
 ``` 
-python -m venv venv
+python3.11 -m venv venv
 ```
 
 Step 3: Activate the Virtual Environment
 ``` 
-.\venv\Scripts\activate
+source .\venv\Scripts\activate
 ```
 ##### Installing Required Libraries
 installs the Python packages specified in a requirements.txt file. This is a common practice to manage and share project dependencies, ensuring consistency across different environments or machines
@@ -48,6 +48,6 @@ Running Python Automation
 1. Open a terminal (or command prompt) and navigate to the directory where script.py is located.
 2. Run the following command:
 ``` 
-python script.py
+python3.11 script.py
 ```
 3. This will execute the script and perform the automation (sending whatsapp blast)
